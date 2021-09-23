@@ -26,7 +26,9 @@ function Navbar() {
       <li className="nav-item">
           <Link to="/" className="navlink">
             <FontAwesomeIcon className='icon' icon={faMinimize} size='2x'/>
-            <p className="link-text logo-text">Phonique</p>
+            <span className='textlogo'>
+            <p className="link-text logo-text">BigMarl</p>
+            </span>
             </Link>
           
           

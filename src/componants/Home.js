@@ -8,7 +8,7 @@ const About = () => {
                     <p><h1>Marlybone</h1></p>
                     <p><h3>Full Stack Developer</h3></p>
                     <p><h4>Javascript, React, CSS, HTML, 
-                        Python, JQuery, SASS, Bootstrap</h4></p>
+                        Python, JQuery, SASS, Bootstrap, VScode</h4></p>
                 </div>
             </body>
         

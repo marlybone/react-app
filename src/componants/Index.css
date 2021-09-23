@@ -1,11 +1,13 @@
 .abtimg {
-    margin-left: 10%;
+    margin-left: 25%;
     border-radius: 50%;
+    display: relative;
+    overflow: hidden;
 }
 
 .container1 {
     overflow: hidden;
     padding: 30px;
-    display: flex;
+    display: relative;
     
 }

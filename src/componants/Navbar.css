@@ -5,7 +5,7 @@
     --text-secondary: #ececec;
     --bg-primary: #23232e;
     --bg-secondary: #141418;
-    --transition-speed: 800ms;
+    --transition-speed: 600ms;
     --fa-primary: #ff7eee;
     --fa-secondary: #df49a6;
 
@@ -73,8 +73,8 @@
   
   .navbar:hover .link-text {
     display: block;
-    opacity: 0.1 600ms ease-in;
-    transition: 600ms ease-in;
+    opacity: 0.1 var(--transition-speed);
+    transition: var(--transition-speed);
   }
    
   .header {
@@ -99,17 +99,30 @@
     color: var(--text-secondary);
     background: var(--bg-secondary);
     width: 100%;
+    
     }
 
 
 .icon {
   transform: rotate(180deg);
-  transition: transform var(--transition-speed);
 }
 
 .navbar:hover .icon {
-  transform: rotateY(-360deg);
-  
+  transform: rotateY(360deg);
+  transition: var(--transition-speed);
+  transform: translate(550%);
 }
-  
+
+ .textlogo {
+   display: inline;
+   transform: translateX(-200%);
+   transition: 300ms ease-in;
+   left: 999px;
+ }
+
+ .navbar:hover .textlogo {
+   transition: 420ms ease-in;
+   transform: translate(-60%);
+
+ }
 
