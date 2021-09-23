@@ -15,7 +15,7 @@
     width: 6rem;
     height: 100vh;
     position: fixed;
-    background-color: var(--bg-primary);
+    background-color: var(--bg-secondary);
     transition: width 600ms ease;
   }
   
@@ -34,9 +34,13 @@
     align-items: center;
     height: 5rem;
     text-decoration: none;
-    color: var(--fa-primary);
-    opacity: 1;
+    color: var(--fa-secondary);
+    filter: grayscale(100%) opacity(0.7);
     transition: var(--transition-speed)
+  }
+
+  .navlink:hover {
+    filter: grayscale(0%) opacity(1);
   }
   
   .nav-item:last-child {
@@ -53,22 +57,10 @@
     width: 16rem;
   }
   
-  .body::-webkit-scrollbar {
-    width: 2.5rem;
-  }
-  
-  .body::-webkit-scrollbar-track {
-    background: #1e1e24;
-  }
-  
-  .body::-webkit-scrollbar-thumb {
-    background: #6649b8;
-  } 
-  
   .link-text {
     display: none;
-    margin-left: 1rem;
-    margin-top: 3em;
+    margin-left: 3rem;
+    margin-top: 1em;
     color: white;
   }
 
@@ -97,6 +89,27 @@
     padding: 0;
   }
 
+  .logo-text {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 0.2ch;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    width: 100%;
+    }
 
+
+.icon {
+  transform: rotate(180deg);
+  transition: transform var(--transition-speed);
+}
+
+.navbar:hover .icon {
+  transform: rotateY(-360deg);
+  
+}
   
 
