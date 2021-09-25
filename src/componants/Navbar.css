@@ -116,13 +116,16 @@
  .textlogo {
    display: inline;
    transform: translateX(-200%);
-   transition: 300ms ease-in;
+   transition: 300ms ease-in-out;
    left: 999px;
  }
 
  .navbar:hover .textlogo {
-   transition: 420ms ease-in;
+   transition: 420ms ease-in-out;
    transform: translate(-60%);
+ }
+
+ .navbar:not(:hover) .icon {
 
  }
 
