@@ -5,7 +5,7 @@ import './Index.css'
 const Anitext = () => {
     return (
         <body>
-            <div>
+            <div className='wrap'>
                 <span className='wrapper'>
                     Marlybone
                 </span>

@@ -1,21 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Lobster&family=Open+Sans:ital,wght@1,800&family=Oswald&family=Raleway:ital,wght@1,800&family=Roboto:ital,wght@1,900&display=swap');
 
 .abtimg {
-    margin-left: 30%;
-    border-radius: 50%;
-    
-    overflow: hidden;
+    margin-left: 5%;
+    border-radius: 75%;
+    overflow: hidden; 
+    margin-bottom: 10%;
+}
+
+.wrap {
+    margin-top: 15%;
+    padding: 1em;
+    margin-left: 4%;
+    margin-bottom: 2%;
 }
 
 .container1 {
     overflow: hidden;
-    padding: 30px;
-    display: relative;
-    margin-left: 25%;    
+    padding: 2em;
+    display: -moz-grid-line;
+    margin-left: 20%; 
+    margin-bottom: 35%; 
+     
+    
 }
 
-.wrapper {
-font-size: 8em;
+.wrapper {    
+font-size: 12em;
 margin-left: 30%;
 transform: translate(-15%, 15%);
 font-family: 'Lobster';
@@ -31,17 +41,48 @@ background-position: -200%;
 }
 
 .wrapper {
-    animation: animated 5s infinite alternate-reverse;
+    animation: animated 8s infinite alternate-reverse;
 }
 @keyframes animated {
     0% {
        background-position: left;
    }
-   50% {
+   25% {
        background-position: right;
    }
-   100% {
+   50% {
        background-position: left;
+   }
+   100% {
+       background-position: right;
    }
 }
 
+.git {
+   filter: grayscale(100%); 
+   padding: 0.5em;
+   
+}
+
+.lin {
+    filter: grayscale(100%);
+    padding: 0.5em;
+}
+
+.img1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.paragraph {
+    margin-right: 30%;
+    position: center;
+    
+}
+
+.fs {
+    font-size: 2.5em;
+    text-align: center;
+   
+    
+}

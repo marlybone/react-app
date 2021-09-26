@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import About from './componants/About.js'
 import Home from './componants/Home.js'
 import Anitext from './componants/Anitext'
+import Lin from './componants/Lin.js'
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
       <Navbar />
       <br></br>
       <Anitext />
+   
       <Home />
       <About />
       <Switch>

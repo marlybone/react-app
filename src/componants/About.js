@@ -1,6 +1,13 @@
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
 import Img from './Image.jpg'
 import './Index.css'
+import Lin from './Lin.js'
+import {FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
+
+
 
 const About = () => {
     
@@ -8,9 +15,13 @@ const About = () => {
             <body className='container1'>
                 <div className='home-page'>
                     <div className='img'>
+                        <div className='img1'>
+                      <Lin />
                     <img className='abtimg' src={Img} height='300px' width='300px' />
+                        </div>
                     </div>
-                    <p>
+                    
+                    <p className='paragraph'>
                    Having landed into sales after high school and making 
                    a succesful career as a Recruitment Consultant I found myself wanting
                    change. I've always been drawn to and had a fascination with programming
@@ -25,7 +36,7 @@ const About = () => {
                    <br></br>
 
                     </p>
-
+                    
                 </div>
             </body>
         

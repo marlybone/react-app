@@ -1,4 +1,5 @@
 import React from 'react'
+import './Index.css';
 
 const Home = () => {
     return (
@@ -6,9 +7,9 @@ const Home = () => {
             <body className='container1'>
                 <div className='about-page'>
                     
-                    <p><h3>Full Stack Developer</h3></p>
-                    <p><h4>Javascript, React, CSS, HTML, 
-                        Python, JQuery, SASS, Bootstrap, VScode</h4></p>
+                    <p><h3 className='fs'>Full Stack Developer</h3></p>
+                    <p><h4>Javascript, React, CSS3, HTML5, 
+                        Python, JQuery, SASS, Bootstrap</h4></p>
                 </div>
             </body>
         
